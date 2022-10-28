@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(252, 191, 94);
+}
+
+hr {
+    border: 4px solid dimgrey;
+}
+
+h1 {
+    font-family: monospace;
+    background-color: rgb(252, 191, 94);
+}
+
+p {
+    font-family: monospace;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+li {
+    font-family: monospace;
+    font-size: large;
+}
+
+.ingredients{
+    background-color: rgb(252, 191, 94);
+    text-align: center;
+}
+
+.ingredients_text{
+    background-color: dimgrey;
+    font-family: monospace;
+    position: relative;
+}
+
+.recipe{
+    background-color: rgb(252, 191, 94);
+    text-align: center;
+}
+
+.recipe_text{
+    background-color: dimgrey;
+    font-family: monospace;
+    position: relative;
+}
+
+.nav{
+    align-items: center;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.portion{
+    text-align: left;
+}
+
+.prep{
+    text-align: center;
+}
+
+.cook{
+    text-align: right;
+}
+
+.ravioli_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+    font-size: xx-large;
+    text-align: right;
+    font-family: monospace;
+    background-color: rgb(252, 191, 94);
+}
