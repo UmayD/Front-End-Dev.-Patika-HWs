@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+body {
+  background-image: -webkit-gradient(linear, right top, left top, from(black), to(darkred));
+  background-image: linear-gradient(270deg, black, darkred);
+}
+
+h1 {
+  text-align: center;
+  font-family: Creepster;
+  font-weight: 200;
+  font-size: 70px;
+  color: #fde4e4;
+}
+
+/* ----- Nav Bar Start ----- */
+.navbar {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar .navbar_ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkred;
+}
+
+li {
+  float: left;
+  font-family: Creepster;
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+li a {
+  display: block;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* ----- Nav Bar End ----- */
+.homepage {
+  text-align: center;
+  font-family: monospace;
+  color: #f5f5f5;
+  font-size: 18px;
+}
+
+.about_article {
+  text-align: center;
+  font-family: monospace;
+  color: #f5f5f5;
+  font-size: 18px;
+}
+
+/* ----- Albums List Start ----- */
+.albums {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 20px;
+}
+
+.albums .albums_ul {
+  text-align: center;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.albums .albums_ul li {
+  float: left;
+  font-family: monospace;
+  font-size: large;
+}
+
+.albums .albums_ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.albums .albums_ul li img:hover {
+  background-color: #111;
+  width: 320px;
+  height: 320px;
+}
+
+/* ----- Albums List End ----- */
+/*# sourceMappingURL=style.css.map */
