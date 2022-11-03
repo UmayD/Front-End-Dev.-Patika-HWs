@@ -1,0 +1,117 @@
+.google {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.google .search_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #EEEEEE;
+  padding-inline: 272px;
+}
+
+.google .search_block .search_bar .search_bar_input {
+  width: 317px;
+}
+
+.google .externals {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2px;
+  height: 76px;
+  width: 894px;
+}
+
+.google .externals .ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  font-size: 13px;
+}
+
+.google .externals .special_searches {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.google .externals .special_searches .ul_searches {
+  background-color: #7EE5DA;
+  padding-inline: 137px;
+  padding-block: 13px;
+}
+
+.google .externals .google_searches {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.google .externals .google_searches .ul_google {
+  background-color: #70CCC2;
+  padding-inline: 25px;
+  padding-block: 5px;
+}
+
+.google .externals .subscribe {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+.google .externals .subscribe .ul_subs {
+  background-color: #62B3AA;
+  padding-inline: 100px;
+}
+
+.google .externals .subscribe .ul_subs .subs_buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 8px;
+}
+
+.copyright {
+  text-align: center;
+  padding: 15px;
+  font-size: 13px;
+}
+/*# sourceMappingURL=style.css.map */
