@@ -28,7 +28,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   padding-inline: 272px;
 }
 
@@ -71,7 +71,7 @@
 }
 
 .google .externals .special_searches .ul_searches {
-  background-color: #7EE5DA;
+  background-color: #7ee5da;
   padding-inline: 137px;
   padding-block: 13px;
 }
@@ -83,7 +83,7 @@
 }
 
 .google .externals .google_searches .ul_google {
-  background-color: #70CCC2;
+  background-color: #70ccc2;
   padding-inline: 25px;
   padding-block: 5px;
 }
@@ -95,7 +95,7 @@
 }
 
 .google .externals .subscribe .ul_subs {
-  background-color: #62B3AA;
+  background-color: #62b3aa;
   padding-inline: 100px;
 }
 

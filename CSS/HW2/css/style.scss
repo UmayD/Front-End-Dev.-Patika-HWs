@@ -1,7 +1,7 @@
-$search_bar_bg: #EEEEEE;
-$externals_left_bg: #7EE5DA;
-$externals_center_bg: #70CCC2;
-$externals_right_bg: #62B3AA;
+$search_bar_bg: #eeeeee;
+$externals_left_bg: #7ee5da;
+$externals_center_bg: #70ccc2;
+$externals_right_bg: #62b3aa;
 
 .google {
     display: flex;
@@ -63,7 +63,7 @@ $externals_right_bg: #62B3AA;
             .ul_subs {
                 background-color: $externals_right_bg;
                 padding-inline: 100px;
-    
+
                 .subs_buttons {
                     display: flex;
                     justify-content: center;
@@ -71,12 +71,8 @@ $externals_right_bg: #62B3AA;
                 }
             }
             order: 3;
-
         }
-
-        
     }
-
 }
 
 .copyright {
